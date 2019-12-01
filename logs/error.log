@@ -1,0 +1,27 @@
+2019-11-13 20:40:08 WARNING [25152-Thread-1] log.log_response line 228: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:40:12 ERROR [25152-Thread-1] log.log_response line 228: Internal Server Error: /article/2123/
+Traceback (most recent call last):
+  File "D:\work\djcode\fuko\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\work\djcode\fuko\env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\work\djcode\fuko\env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\djcode\fuko\my_blog\article\views.py", line 72, in article_detail
+    article = ArticlePost.objects.get(id=id)
+  File "D:\work\djcode\fuko\env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\work\djcode\fuko\env\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+article.models.ArticlePost.DoesNotExist: ArticlePost matching query does not exist.
+2019-11-13 20:41:54 WARNING [25692-Thread-1] log.log_response line 228: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:41:55 WARNING [25692-Thread-1] log.log_response line 228: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:42:20 WARNING [25692-Thread-1] log.log_response line 228: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:43:39 WARNING [30188-Thread-1] log.log_response line 228: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:43:40 WARNING [30188-Thread-1] log.log_response line 228: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:43:41 WARNING [30188-Thread-1] log.log_response line 228: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:43:44 WARNING [30188-Thread-1] log.log_response line 228: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:46:26 WARNING [30188-Thread-1] log.log_response line 228: Not Found: /article/12/1
+2019-11-13 21:21:42 WARNING [24116-Thread-1] log.log_response line 228: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 21:21:43 WARNING [24116-Thread-1] log.log_response line 228: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 21:21:44 WARNING [24116-Thread-1] log.log_response line 228: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg

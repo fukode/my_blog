@@ -1,0 +1,161 @@
+2019-11-13 20:40:08 log.log_response: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:40:12 log.log_response: Internal Server Error: /article/2123/
+Traceback (most recent call last):
+  File "D:\work\djcode\fuko\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\work\djcode\fuko\env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\work\djcode\fuko\env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\djcode\fuko\my_blog\article\views.py", line 72, in article_detail
+    article = ArticlePost.objects.get(id=id)
+  File "D:\work\djcode\fuko\env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\work\djcode\fuko\env\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+article.models.ArticlePost.DoesNotExist: ArticlePost matching query does not exist.
+2019-11-13 20:41:54 log.log_response: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:41:55 log.log_response: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:42:20 log.log_response: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:43:39 log.log_response: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:43:40 log.log_response: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:43:41 log.log_response: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:43:44 log.log_response: Not Found: /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg
+2019-11-13 20:46:26 log.log_response: Not Found: /article/12/1
+2019-11-13 20:47:13 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2019-11-13 20:47:15 basehttp.log_message: "GET /static/popper.js HTTP/1.1" 200 21165
+2019-11-13 20:47:15 basehttp.log_message: "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 51039
+2019-11-13 20:47:15 basehttp.log_message: "GET /static/jquery.js HTTP/1.1" 200 88145
+2019-11-13 20:47:15 basehttp.log_message: "GET /static/layer/layer.js HTTP/1.1" 200 22116
+2019-11-13 21:21:40 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2019-11-13 21:21:42 basehttp.log_message: "GET /article/?order=total_views&search=&column=3&tag=None HTTP/1.1" 200 8991
+2019-11-13 21:21:42 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-13 21:21:43 basehttp.log_message: "GET /article/?search=&column=3&tag=None HTTP/1.1" 200 8956
+2019-11-13 21:21:43 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-13 21:21:44 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9202
+2019-11-13 21:21:44 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-17 19:23:25 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2019-11-17 19:23:32 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9202
+2019-11-17 19:23:32 basehttp.log_message: "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140936
+2019-11-17 19:23:32 basehttp.log_message: "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+2019-11-17 19:23:32 basehttp.log_message: "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 51039
+2019-11-17 19:23:32 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-17 19:23:32 basehttp.log_message: "GET /static/layer/layer.js HTTP/1.1" 200 22116
+2019-11-17 19:23:32 basehttp.log_message: "GET /static/jquery.js HTTP/1.1" 200 88145
+2019-11-17 19:23:32 basehttp.log_message: "GET /static/popper.js HTTP/1.1" 200 21165
+2019-11-17 19:23:32 basehttp.log_message: "GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+2019-11-17 19:23:32 basehttp.log_message: "GET /favicon.ico HTTP/1.1" 404 2542
+2019-11-18 16:27:25 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2019-11-18 16:27:33 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9202
+2019-11-18 16:27:33 basehttp.log_message: "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+2019-11-18 16:27:33 basehttp.log_message: "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140936
+2019-11-18 16:27:33 basehttp.log_message: "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 51039
+2019-11-18 16:27:33 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:27:33 basehttp.log_message: "GET /static/popper.js HTTP/1.1" 200 21165
+2019-11-18 16:27:33 basehttp.log_message: "GET /static/jquery.js HTTP/1.1" 200 88145
+2019-11-18 16:27:33 basehttp.log_message: "GET /static/layer/layer.js HTTP/1.1" 200 22116
+2019-11-18 16:27:33 basehttp.log_message: "GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+2019-11-18 16:27:33 basehttp.log_message: "GET /favicon.ico HTTP/1.1" 404 2542
+2019-11-18 16:30:14 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9171
+2019-11-18 16:30:14 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:30:17 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9171
+2019-11-18 16:30:17 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:30:17 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9171
+2019-11-18 16:30:17 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:36:41 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9213
+2019-11-18 16:36:41 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:36:43 basehttp.log_message: "GET /article/?search=python HTTP/1.1" 200 7372
+2019-11-18 16:37:00 basehttp.log_message: "GET /article/12/ HTTP/1.1" 200 7542
+2019-11-18 16:37:27 basehttp.log_message: "GET /article/7/ HTTP/1.1" 200 7517
+2019-11-18 16:39:12 basehttp.log_message: "GET /article/?search=python HTTP/1.1" 200 7475
+2019-11-18 16:46:31 basehttp.log_message: "GET /article/?search=python HTTP/1.1" 200 7487
+2019-11-18 16:46:36 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9328
+2019-11-18 16:46:36 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:49:06 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9238
+2019-11-18 16:49:06 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:49:29 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9316
+2019-11-18 16:49:29 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:49:32 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9316
+2019-11-18 16:49:32 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:49:44 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9320
+2019-11-18 16:49:44 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:50:16 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9213
+2019-11-18 16:50:16 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:50:24 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9213
+2019-11-18 16:50:24 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:51:45 basehttp.log_message: "GET /static/popper.min.js.map HTTP/1.1" 404 1675
+2019-11-18 16:51:45 basehttp.log_message: "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+2019-11-18 16:51:45 basehttp.log_message: "GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 176087
+2019-11-18 16:52:56 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9203
+2019-11-18 16:52:56 basehttp.log_message: "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+2019-11-18 16:52:56 basehttp.log_message: "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140936
+2019-11-18 16:52:56 basehttp.log_message: "GET /static/jquery.js HTTP/1.1" 200 88145
+2019-11-18 16:52:56 basehttp.log_message: "GET /static/popper.js HTTP/1.1" 200 21165
+2019-11-18 16:52:56 basehttp.log_message: "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 51039
+2019-11-18 16:52:56 basehttp.log_message: "GET /static/layer/layer.js HTTP/1.1" 200 22116
+2019-11-18 16:52:56 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:52:56 basehttp.log_message: "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+2019-11-18 16:52:56 basehttp.log_message: "GET /static/popper.min.js.map HTTP/1.1" 404 1675
+2019-11-18 16:52:56 basehttp.log_message: "GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+2019-11-18 16:52:56 basehttp.log_message: "GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 176087
+2019-11-18 16:55:27 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9213
+2019-11-18 16:55:27 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:56:09 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9218
+2019-11-18 16:56:09 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:56:10 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9218
+2019-11-18 16:56:10 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:56:22 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9218
+2019-11-18 16:56:22 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:57:04 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9218
+2019-11-18 16:57:04 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:57:11 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9219
+2019-11-18 16:57:11 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:57:16 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9219
+2019-11-18 16:57:16 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:57:22 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9218
+2019-11-18 16:57:22 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:57:31 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9218
+2019-11-18 16:57:31 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:59:38 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9218
+2019-11-18 16:59:38 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 16:59:44 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9218
+2019-11-18 16:59:44 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:00:54 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9230
+2019-11-18 17:00:54 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:01:15 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9214
+2019-11-18 17:01:15 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:01:41 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9226
+2019-11-18 17:01:41 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:04:10 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9238
+2019-11-18 17:04:10 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:04:11 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9238
+2019-11-18 17:04:11 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:04:26 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9221
+2019-11-18 17:04:26 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:07:28 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9236
+2019-11-18 17:07:29 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:07:52 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9246
+2019-11-18 17:07:52 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:08:04 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9246
+2019-11-18 17:08:04 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:08:14 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9251
+2019-11-18 17:08:14 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:08:28 basehttp.log_message: "GET /article/?search=&column=None&tag=None HTTP/1.1" 200 9251
+2019-11-18 17:08:28 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:08:28 basehttp.log_message: "GET /article/?order=total_views&search=&column=None&tag=None HTTP/1.1" 200 9173
+2019-11-18 17:08:29 basehttp.log_message: "GET /article/?search=&column=None&tag=None HTTP/1.1" 200 9251
+2019-11-18 17:08:29 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:08:32 basehttp.log_message: "GET /article/?search=python HTTP/1.1" 200 7410
+2019-11-18 17:08:34 basehttp.log_message: "GET /article/?search=python&column=None&tag=None HTTP/1.1" 200 7410
+2019-11-18 17:08:35 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9251
+2019-11-18 17:08:35 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:13:20 autoreload.trigger_reload: D:\work\djcode\fuko\my_blog\my_blog\urls.py changed, reloading.
+2019-11-18 17:13:21 autoreload.run_with_reloader: Watching for file changes with StatReloader
+2019-11-18 17:13:29 basehttp.log_message: "GET / HTTP/1.1" 200 9245
+2019-11-18 17:13:29 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:13:31 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9245
+2019-11-18 17:13:31 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:13:35 basehttp.log_message: "GET / HTTP/1.1" 200 9245
+2019-11-18 17:13:35 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
+2019-11-18 17:13:38 basehttp.log_message: "GET /article/ HTTP/1.1" 200 9245
+2019-11-18 17:13:38 basehttp.log_message: "GET /media/article/20191013/005HYNt4ly1g5u03jdxk8j30cm0hjdl0_ffJFuQJ.jpg HTTP/1.1" 404 1938
